@@ -1,0 +1,8 @@
+vpc_cidr_block                  = "10.10.0.0/16"
+public_subnet_cidr_block        = "10.10.0.0/24"
+private_subnet_cidr_block       = "10.10.1.0/24"
+public_subnet_zone              = "us-east-1a"
+private_subnet_zone             = "us-east-1b"
+instance_ami                    = "ami-0230bd60aa48260c6"  
+instance_type                   = "t2.micro"
+key_name                        = "Cybage-Nitin-AWS"
